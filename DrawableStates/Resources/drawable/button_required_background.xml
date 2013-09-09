@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:local="http://schemas.android.com/apk/res-auto" android:constantSize="true">
+	<item local:required="true" android:drawable="@drawable/button_background" />
+	<item android:drawable="@android:drawable/btn_default" />
+</selector>

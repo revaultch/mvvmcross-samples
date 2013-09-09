@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="LayoutState">
+		<attr name="completed" format="boolean" />
+		<attr name="required" format="boolean" />
+		<attr name="valid" format="boolean" />
+	</declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawablestates.LinearLayoutWithStates xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/layout_background"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:duplicateParentState="true"
+        android:background="@drawable/button_completed_background"
+        android:id="@+id/completedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="completed (red)" />
+    <Button
+        android:duplicateParentState="true"
+        android:background="@drawable/button_required_background"
+        android:id="@+id/requiredButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="required (green)" />
+    <Button
+        android:duplicateParentState="true"
+        android:background="@drawable/button_valid_background"
+        android:id="@+id/validButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="valid (blue)" />
+</drawablestates.LinearLayoutWithStates>

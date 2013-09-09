@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:local="http://schemas.android.com/apk/res-auto" android:constantSize="true">
+	<item local:completed="false" local:required="false" local:valid="false" android:drawable="@color/c0" />
+	<item local:completed="false" local:required="false" local:valid="true" android:drawable="@color/c1" />
+	<item local:completed="false" local:required="true" local:valid="false" android:drawable="@color/c2" />
+	<item local:completed="false" local:required="true" local:valid="true" android:drawable="@color/c3" />
+	<item local:completed="true" local:required="false" local:valid="false" android:drawable="@color/c4" />
+	<item local:completed="true" local:required="false" local:valid="true" android:drawable="@color/c5" />
+	<item local:completed="true" local:required="true" local:valid="false" android:drawable="@color/c6" />
+	<item local:completed="true" local:required="true" local:valid="true" android:drawable="@color/c7" />
+</selector>
